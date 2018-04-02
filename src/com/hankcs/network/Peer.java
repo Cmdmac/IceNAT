@@ -1,5 +1,7 @@
 package com.hankcs.network;
 
+import org.ice4j.StackProperties;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -14,6 +16,7 @@ public class Peer
     {
         try
         {
+            System.setProperty(StackProperties.DISABLE_IPv6, "true");
             IceClient client = new IceClient(8888, "text");
             client.init();
             client.exchangeSdpWithPeer();

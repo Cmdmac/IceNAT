@@ -1,0 +1,1089 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0c80aa9d-1674-4f91-b1ce-df5f16f70890" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/../ice4j/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="IceSdpUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ice4j/src/main/java/org/ice4j/ice/sdp/IceSdpUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+              <folding>
+                <element signature="e#2970#3000#0" expanded="true" />
+                <element signature="e#4716#4762#0" expanded="true" />
+                <element signature="e#7767#7797#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UPNPHarvester.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../ice4j/src/main/java/org/ice4j/ice/harvest/UPNPHarvester.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="78" column="78" lean-forward="true" selection-start-line="78" selection-start-column="78" selection-end-line="78" selection-end-column="78" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UPNPCandidate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ice4j/src/main/java/org/ice4j/ice/UPNPCandidate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ice4j/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="554">
+              <caret line="37" column="30" lean-forward="true" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CandidateAttribute.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ice4j/src/main/java/org/ice4j/ice/sdp/CandidateAttribute.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="19" column="15" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NistSdpFactory.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/opentelecoms/sdp/java-sdp-nist-bridge/1.1/java-sdp-nist-bridge-1.1.jar!/org/opentelecoms/javax/sdp/NistSdpFactory.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="80" column="48" lean-forward="false" selection-start-line="80" selection-start-column="48" selection-end-line="80" selection-end-column="48" />
+              <folding>
+                <marker date="1522568950606" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1522568950606" expanded="false" signature="150:1835" ph="..." />
+                <marker date="1522568950606" expanded="true" signature="1917:1924" ph="{}" />
+                <marker date="1522568950606" expanded="true" signature="2003:2632" ph="{...}" />
+                <marker date="1522568950606" expanded="true" signature="2724:2947" ph="{...}" />
+                <marker date="1522568950606" expanded="true" signature="3014:3288" ph="{...}" />
+                <marker date="1522568950606" expanded="true" signature="3354:3625" ph="{...}" />
+                <marker date="1522568950606" expanded="true" signature="3668:3905" ph="{...}" />
+                <marker date="1522568950606" expanded="true" signature="3950:4175" ph="{...}" />
+                <marker date="1522568950606" expanded="true" signature="4220:4445" ph="{...}" />
+                <marker date="1522568950606" expanded="true" signature="4503:4582" ph="{...}" />
+                <marker date="1522568950606" expanded="true" signature="4638:4877" ph="{...}" />
+                <marker date="1522568950606" expanded="true" signature="4931:5181" ph="{...}" />
+                <marker date="1522568950606" expanded="true" signature="5227:5471" ph="{...}" />
+                <marker date="1522568950606" expanded="true" signature="5604:5845" ph="{...}" />
+                <marker date="1522568950606" expanded="true" signature="5931:6063" ph="{...}" />
+                <marker date="1522568950606" expanded="true" signature="6223:6443" ph="{...}" />
+                <marker date="1522568950606" expanded="true" signature="6623:7092" ph="{...}" />
+                <marker date="1522568950606" expanded="true" signature="7219:7789" ph="{...}" />
+                <marker date="1522568950606" expanded="true" signature="7868:7976" ph="{...}" />
+                <marker date="1522568950606" expanded="true" signature="8049:8098" ph="{...}" />
+                <marker date="1522568950606" expanded="true" signature="8192:8327" ph="{...}" />
+                <marker date="1522568950606" expanded="true" signature="8406:8463" ph="{...}" />
+                <marker date="1522568950606" expanded="true" signature="8593:8689" ph="{...}" />
+                <marker date="1522568950606" expanded="true" signature="8796:8944" ph="{...}" />
+                <marker date="1522568950606" expanded="true" signature="9041:9092" ph="{...}" />
+                <marker date="1522568950606" expanded="true" signature="9166:9265" ph="{...}" />
+                <marker date="1522568950606" expanded="true" signature="9337:9450" ph="{...}" />
+                <marker date="1522568950606" expanded="true" signature="9501:9540" ph="{...}" />
+                <marker date="1522568950606" expanded="true" signature="9636:9974" ph="{...}" />
+                <marker date="1522568950606" expanded="true" signature="10051:10361" ph="{...}" />
+                <marker date="1522568950606" expanded="false" signature="10407:10418" ph=" { " />
+                <marker date="1522568950606" expanded="false" signature="10467:10473" ph=" }" />
+                <marker date="1522568950606" expanded="true" signature="10535:10610" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SDPAnnounceParser.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/jitsi/jain-sip-ri-ossonly/1.2.98c7f8c-jitsi-oss1/jain-sip-ri-ossonly-1.2.98c7f8c-jitsi-oss1.jar!/gov/nist/javax/sdp/parser/SDPAnnounceParser.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+              <folding>
+                <marker date="1522568994017" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1522568994017" expanded="false" signature="149:325" ph="..." />
+                <marker date="1522568994017" expanded="false" signature="487:498" ph=" { " />
+                <marker date="1522568994017" expanded="false" signature="527:533" ph=" }" />
+                <marker date="1522568994017" expanded="true" signature="580:2085" ph="{...}" />
+                <marker date="1522568994017" expanded="true" signature="2151:2630" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>cre</find>
+      <find>feed the following</find>
+      <find>83.45.187.47</find>
+      <find>localSdp</find>
+      <find>GatewayDevice</find>
+      <find>listener</find>
+      <find>opentelecoms</find>
+      <find>javax.sdpjavax.sdp</find>
+      <find>NistSdpFactory</find>
+      <find>srflx raddr</find>
+      <find>srflx</find>
+      <find>ice-pwd</find>
+      <find>nist-sdp</find>
+      <find>candid</find>
+      <find>exchan</find>
+      <find>parseCandidate</find>
+      <find>Total harvesting time</find>
+      <find>gov</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../ice4j" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/hankcs/network/IceClient.java" />
+        <option value="$PROJECT_DIR$/src/com/hankcs/network/SdpUtils.java" />
+        <option value="$PROJECT_DIR$/src/com/hankcs/network/Peer.java" />
+        <option value="$PROJECT_DIR$/src/log4j.properties" />
+        <option value="$PROJECT_DIR$/../ice4j/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="3160" />
+    <option name="y" value="303" />
+    <option name="width" value="1280" />
+    <option name="height" value="777" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="IceNAT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ice4j" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IceNAT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="IceNAT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.bitlet:weupnp:0.1.4" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="IceNAT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.bitlet:weupnp:0.1.4" type="70bed36:NamedLibraryElementNode" />
+              <item name="weupnp-0.1.4.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IceNAT" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.bitlet:weupnp:0.1.4" type="70bed36:NamedLibraryElementNode" />
+              <item name="weupnp-0.1.4.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="weupnp" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="com.hankcs.network.Peer" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="IceNAT" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="com.hankcs.network.Peer" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="IceNAT" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0c80aa9d-1674-4f91-b1ce-df5f16f70890" name="Default" comment="" />
+      <created>1522568780214</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1522568780214</updated>
+      <workItem from="1522568781774" duration="13876000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="13876000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="3199" y="23" width="1920" height="1057" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32952183" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4189189" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952183" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25559106" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994923" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hankcs/network/IceClient.java</url>
+          <line>123</line>
+          <properties />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hankcs/network/IceClient.java</url>
+          <line>149</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hankcs/network/Peer.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hankcs/network/Peer.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hankcs/network/IceClient.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hankcs/network/IceClient.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../ice4j/src/main/java/org/ice4j/ice/sdp/IceSdpUtils.java</url>
+          <line>246</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../ice4j/src/main/java/org/ice4j/ice/Agent.java</url>
+          <line>579</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../ice4j/src/main/java/org/ice4j/ice/Agent.java</url>
+          <line>618</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hankcs/network/IceClient.java</url>
+          <line>185</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hankcs/network/IceClient.java</url>
+          <line>202</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hankcs/network/IceClient.java</url>
+          <line>218</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../ice4j/src/main/java/org/ice4j/ice/harvest/HostCandidateHarvester.java</url>
+          <line>350</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="13" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/opentelecoms/sdp/sdp-api/1.0/sdp-api-1.0.jar!/javax/sdp/SdpFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="52" lean-forward="true" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ice4j/src/main/java/org/ice4j/message/ChannelData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="39" column="22" lean-forward="false" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jitsi/ice4j/1.0/ice4j-1.0.jar!/org/ice4j/ice/harvest/CandidateHarvester.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jitsi/ice4j/1.0/ice4j-1.0.jar!/org/ice4j/ice/harvest/StunCandidateHarvester.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="35" column="11" lean-forward="false" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+          <folding>
+            <marker date="1522568976561" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1522568976561" expanded="false" signature="145:754" ph="..." />
+            <marker date="1522568976561" expanded="true" signature="1242:1253" ph=" { " />
+            <marker date="1522568976561" expanded="true" signature="1284:1290" ph=" }" />
+            <marker date="1522568976561" expanded="true" signature="1391:1930" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="1999:2806" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="2886:2955" ph="{...}" />
+            <marker date="1522568976561" expanded="false" signature="3058:3069" ph=" { " />
+            <marker date="1522568976561" expanded="false" signature="3081:3087" ph=" }" />
+            <marker date="1522568976561" expanded="false" signature="3142:3153" ph=" { " />
+            <marker date="1522568976561" expanded="false" signature="3193:3199" ph=" }" />
+            <marker date="1522568976561" expanded="false" signature="3236:3247" ph=" { " />
+            <marker date="1522568976561" expanded="false" signature="3269:3275" ph=" }" />
+            <marker date="1522568976561" expanded="true" signature="3344:4931" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="5014:5313" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="5380:7256" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="7298:7928" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="7959:8115" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="8186:8925" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ice4j/src/main/java/org/ice4j/TransportAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="62" column="8" lean-forward="false" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ice4j/src/main/java/org/ice4j/AbstractResponseCollector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="21" column="3" lean-forward="false" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jitsi/ice4j/1.0/ice4j-1.0.jar!/org/ice4j/ice/Agent.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="340" column="42" lean-forward="false" selection-start-line="340" selection-start-column="42" selection-end-line="340" selection-end-column="42" />
+          <folding>
+            <marker date="1522568976561" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1522568976561" expanded="false" signature="137:929" ph="..." />
+            <marker date="1522568976561" expanded="true" signature="2936:4125" ph="{...}" />
+            <marker date="1522568976561" expanded="false" signature="4178:4189" ph=" { " />
+            <marker date="1522568976561" expanded="false" signature="4223:4229" ph=" }" />
+            <marker date="1522568976561" expanded="true" signature="4299:4593" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="4781:5482" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="5578:5634" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="5781:6774" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="6876:7628" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="7679:8691" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="8735:9980" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="10013:10170" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="10200:10307" ph="{...}" />
+            <marker date="1522568976561" expanded="false" signature="10349:10360" ph=" { " />
+            <marker date="1522568976561" expanded="false" signature="10378:10384" ph=" }" />
+            <marker date="1522568976561" expanded="true" signature="10451:10664" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="10734:10879" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="10972:11687" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="11747:12214" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="12252:13030" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="13100:13270" ph="{...}" />
+            <marker date="1522568976561" expanded="false" signature="13320:13331" ph=" { " />
+            <marker date="1522568976561" expanded="false" signature="13354:13360" ph=" }" />
+            <marker date="1522568976561" expanded="false" signature="13395:13406" ph=" { " />
+            <marker date="1522568976561" expanded="false" signature="13424:13430" ph=" }" />
+            <marker date="1522568976561" expanded="false" signature="13468:13479" ph=" { " />
+            <marker date="1522568976561" expanded="false" signature="13500:13506" ph=" }" />
+            <marker date="1522568976561" expanded="true" signature="13562:14158" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="14215:14370" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="14476:14554" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="14661:14739" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="14827:14917" ph="{...}" />
+            <marker date="1522568976561" expanded="false" signature="14980:14991" ph=" { " />
+            <marker date="1522568976561" expanded="false" signature="15023:15029" ph=" }" />
+            <marker date="1522568976561" expanded="true" signature="15080:15241" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="15284:15444" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="15491:15651" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="15685:15827" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="15903:16556" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="16607:16740" ph="{...}" />
+            <marker date="1522568976561" expanded="false" signature="16791:16802" ph=" { " />
+            <marker date="1522568976561" expanded="false" signature="16829:16835" ph=" }" />
+            <marker date="1522568976561" expanded="true" signature="16881:17368" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="17399:17994" ph="{...}" />
+            <marker date="1522568976561" expanded="false" signature="18027:18038" ph=" { " />
+            <marker date="1522568976561" expanded="false" signature="18061:18067" ph=" }" />
+            <marker date="1522568976561" expanded="true" signature="18123:18483" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="18537:18714" ph="{...}" />
+            <marker date="1522568976561" expanded="false" signature="18750:18761" ph=" { " />
+            <marker date="1522568976561" expanded="false" signature="18787:18793" ph=" }" />
+            <marker date="1522568976561" expanded="true" signature="18871:19237" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="19329:20048" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="20129:20498" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="20606:21119" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="21203:21712" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="21894:23640" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="23699:25391" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="25450:25646" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="25735:26343" ph="{...}" />
+            <marker date="1522568976561" expanded="false" signature="26411:26422" ph=" { " />
+            <marker date="1522568976561" expanded="false" signature="26459:26465" ph=" }" />
+            <marker date="1522568976561" expanded="true" signature="26535:27092" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="27138:29113" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="29147:30808" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="30850:31287" ph="{...}" />
+            <marker date="1522568976561" expanded="false" signature="31324:31335" ph=" { " />
+            <marker date="1522568976561" expanded="false" signature="31358:31364" ph=" }" />
+            <marker date="1522568976561" expanded="false" signature="31398:31409" ph=" { " />
+            <marker date="1522568976561" expanded="false" signature="31457:31463" ph=" }" />
+            <marker date="1522568976561" expanded="true" signature="31510:31608" ph="{...}" />
+            <marker date="1522568976561" expanded="false" signature="31656:31667" ph=" { " />
+            <marker date="1522568976561" expanded="false" signature="31679:31685" ph=" }" />
+            <marker date="1522568976561" expanded="true" signature="31726:32041" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="32084:32501" ph="{...}" />
+            <marker date="1522568976561" expanded="false" signature="32173:32244" ph="run() → { " />
+            <marker date="1522568976561" expanded="false" signature="32282:32314" ph=" }" />
+            <marker date="1522568976561" expanded="true" signature="32567:32881" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="32955:33759" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="33808:33862" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="33887:35229" ph="{...}" />
+            <marker date="1522568976561" expanded="false" signature="35261:35272" ph=" { " />
+            <marker date="1522568976561" expanded="false" signature="35295:35301" ph=" }" />
+            <marker date="1522568976561" expanded="false" signature="35348:35359" ph=" { " />
+            <marker date="1522568976561" expanded="false" signature="35388:35394" ph=" }" />
+            <marker date="1522568976561" expanded="true" signature="35440:36833" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="36891:37071" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="37134:37424" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="37497:37657" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="37732:37893" ph="{...}" />
+            <marker date="1522568976561" expanded="false" signature="37927:37938" ph=" { " />
+            <marker date="1522568976561" expanded="false" signature="37958:37964" ph=" }" />
+            <marker date="1522568976561" expanded="false" signature="38011:38022" ph=" { " />
+            <marker date="1522568976561" expanded="false" signature="38045:38051" ph=" }" />
+            <marker date="1522568976561" expanded="true" signature="38109:38622" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="38677:39149" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="39192:39521" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="39556:39871" ph="{...}" />
+            <marker date="1522568976561" expanded="false" signature="39920:39931" ph=" { " />
+            <marker date="1522568976561" expanded="false" signature="39967:39973" ph=" }" />
+            <marker date="1522568976561" expanded="true" signature="40051:40122" ph="{...}" />
+            <marker date="1522568976561" expanded="true" signature="40162:40385" ph="{...}" />
+            <marker date="1522568976561" expanded="false" signature="40448:40459" ph=" { " />
+            <marker date="1522568976561" expanded="false" signature="40500:40506" ph=" }" />
+            <marker date="1522568976561" expanded="true" signature="40559:41316" ph="{...}" />
+            <marker date="1522568976561" expanded="false" signature="40596:40611" ph=" { " />
+            <marker date="1522568976561" expanded="false" signature="40638:40648" ph=" }" />
+            <marker date="1522568976561" expanded="true" signature="40689:41310" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ice4j/src/main/java/org/ice4j/ice/harvest/CandidateHarvester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="48" column="61" lean-forward="true" selection-start-line="48" selection-start-column="61" selection-end-line="48" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ice4j/src/main/java/org/ice4j/ice/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="172" column="14" lean-forward="false" selection-start-line="172" selection-start-column="14" selection-end-line="172" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ice4j/src/main/java/org/ice4j/ice/harvest/StunCandidateHarvester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="110" column="57" lean-forward="false" selection-start-line="110" selection-start-column="57" selection-end-line="110" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ice4j/ice4j.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ice4j/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="180">
+            <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ice4j/src/main/java/org/ice4j/ice/IceMediaStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="192" column="0" lean-forward="false" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ice4j/src/main/java/org/ice4j/ice/harvest/HostCandidateHarvester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="350" column="0" lean-forward="false" selection-start-line="350" selection-start-column="0" selection-end-line="350" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ice4j/src/main/java/org/ice4j/ice/harvest/CandidateHarvesterSetElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="131" column="0" lean-forward="false" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+          <folding>
+            <element signature="e#4457#4458#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ice4j/src/main/java/org/ice4j/ice/harvest/CandidateHarvesterSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+          <folding>
+            <element signature="e#3166#3167#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ice4j/src/main/java/org/ice4j/ice/Agent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="454" column="0" lean-forward="false" selection-start-line="454" selection-start-column="0" selection-end-line="454" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hankcs/network/Peer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="18" column="78" lean-forward="false" selection-start-line="18" selection-start-column="78" selection-end-line="18" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jitsi/jain-sip-ri-ossonly/1.2.98c7f8c-jitsi-oss1/jain-sip-ri-ossonly-1.2.98c7f8c-jitsi-oss1.jar!/gov/nist/javax/sdp/parser/SDPAnnounceParser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+          <folding>
+            <marker date="1522568994017" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1522568994017" expanded="false" signature="149:325" ph="..." />
+            <marker date="1522568994017" expanded="false" signature="487:498" ph=" { " />
+            <marker date="1522568994017" expanded="false" signature="527:533" ph=" }" />
+            <marker date="1522568994017" expanded="true" signature="580:2085" ph="{...}" />
+            <marker date="1522568994017" expanded="true" signature="2151:2630" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/opentelecoms/sdp/java-sdp-nist-bridge/1.1/java-sdp-nist-bridge-1.1.jar!/org/opentelecoms/javax/sdp/NistSdpFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="80" column="48" lean-forward="false" selection-start-line="80" selection-start-column="48" selection-end-line="80" selection-end-column="48" />
+          <folding>
+            <marker date="1522568950606" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1522568950606" expanded="false" signature="150:1835" ph="..." />
+            <marker date="1522568950606" expanded="true" signature="1917:1924" ph="{}" />
+            <marker date="1522568950606" expanded="true" signature="2003:2632" ph="{...}" />
+            <marker date="1522568950606" expanded="true" signature="2724:2947" ph="{...}" />
+            <marker date="1522568950606" expanded="true" signature="3014:3288" ph="{...}" />
+            <marker date="1522568950606" expanded="true" signature="3354:3625" ph="{...}" />
+            <marker date="1522568950606" expanded="true" signature="3668:3905" ph="{...}" />
+            <marker date="1522568950606" expanded="true" signature="3950:4175" ph="{...}" />
+            <marker date="1522568950606" expanded="true" signature="4220:4445" ph="{...}" />
+            <marker date="1522568950606" expanded="true" signature="4503:4582" ph="{...}" />
+            <marker date="1522568950606" expanded="true" signature="4638:4877" ph="{...}" />
+            <marker date="1522568950606" expanded="true" signature="4931:5181" ph="{...}" />
+            <marker date="1522568950606" expanded="true" signature="5227:5471" ph="{...}" />
+            <marker date="1522568950606" expanded="true" signature="5604:5845" ph="{...}" />
+            <marker date="1522568950606" expanded="true" signature="5931:6063" ph="{...}" />
+            <marker date="1522568950606" expanded="true" signature="6223:6443" ph="{...}" />
+            <marker date="1522568950606" expanded="true" signature="6623:7092" ph="{...}" />
+            <marker date="1522568950606" expanded="true" signature="7219:7789" ph="{...}" />
+            <marker date="1522568950606" expanded="true" signature="7868:7976" ph="{...}" />
+            <marker date="1522568950606" expanded="true" signature="8049:8098" ph="{...}" />
+            <marker date="1522568950606" expanded="true" signature="8192:8327" ph="{...}" />
+            <marker date="1522568950606" expanded="true" signature="8406:8463" ph="{...}" />
+            <marker date="1522568950606" expanded="true" signature="8593:8689" ph="{...}" />
+            <marker date="1522568950606" expanded="true" signature="8796:8944" ph="{...}" />
+            <marker date="1522568950606" expanded="true" signature="9041:9092" ph="{...}" />
+            <marker date="1522568950606" expanded="true" signature="9166:9265" ph="{...}" />
+            <marker date="1522568950606" expanded="true" signature="9337:9450" ph="{...}" />
+            <marker date="1522568950606" expanded="true" signature="9501:9540" ph="{...}" />
+            <marker date="1522568950606" expanded="true" signature="9636:9974" ph="{...}" />
+            <marker date="1522568950606" expanded="true" signature="10051:10361" ph="{...}" />
+            <marker date="1522568950606" expanded="false" signature="10407:10418" ph=" { " />
+            <marker date="1522568950606" expanded="false" signature="10467:10473" ph=" }" />
+            <marker date="1522568950606" expanded="true" signature="10535:10610" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ice4j/src/main/java/org/ice4j/socket/GoogleRelayedCandidateDatagramSocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2404">
+          <caret line="215" column="23" lean-forward="false" selection-start-line="215" selection-start-column="23" selection-end-line="215" selection-end-column="23" />
+          <folding>
+            <element signature="e#7375#7376#0" expanded="false" />
+            <element signature="e#7431#7432#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ice4j/src/main/java/org/ice4j/ice/harvest/StunCandidateHarvest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="867" column="26" lean-forward="true" selection-start-line="867" selection-start-column="16" selection-end-line="867" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hankcs/network/SdpUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="180" column="24" lean-forward="false" selection-start-line="180" selection-start-column="24" selection-end-line="180" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hankcs/network/IceClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="755">
+          <caret line="76" column="0" lean-forward="true" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ice4j/src/main/java/org/ice4j/ice/sdp/CandidateAttribute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="19" column="15" lean-forward="false" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ice4j/src/main/java/org/ice4j/ice/sdp/IceSdpUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding>
+            <element signature="e#2970#3000#0" expanded="true" />
+            <element signature="e#4716#4762#0" expanded="true" />
+            <element signature="e#7767#7797#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/org.jitsi:ice4j:2.0.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>org.jitsi:ice4j:2.0.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">org.jitsi:ice4j:2.0.0-SNAPSHOT</node>
+            <node x="" y="">org.opentelecoms.sdp:java-sdp-nist-bridge:jar:1.1</node>
+            <node x="" y="">org.opentelecoms.sdp:java-sdp-nist-bridge:jar:1.1/org.opentelecoms.sdp:sdp-api:jar:1.0</node>
+            <node x="" y="">org.jitsi:jain-sip-ri-ossonly:jar:1.2.98c7f8c-jitsi-oss1</node>
+            <node x="" y="">org.bitlet:weupnp:jar:0.1.4</node>
+            <node x="" y="">junit:junit:jar:4.11</node>
+            <node x="" y="">junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="209.0" y="95.0" />
+          <SelectedNodes />
+          <Categories />
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ice4j/src/main/java/org/ice4j/ice/UPNPCandidate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ice4j/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="37" column="30" lean-forward="true" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/bitlet/weupnp/0.1.4/weupnp-0.1.4.jar!/org/bitlet/weupnp/GatewayDevice.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ice4j/src/main/java/org/ice4j/ice/harvest/UPNPHarvester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="78" column="78" lean-forward="true" selection-start-line="78" selection-start-column="78" selection-end-line="78" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>OSGi</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ice4j</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>org.jitsi:ice4j:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
