@@ -55,6 +55,14 @@ public class SignalChannel {
                     mOnPeerSdp.onPeerSdk((String)objects[0]);
                 }
             }
+        }).on("onPeerSdp2", new Emitter.Listener() {
+            @Override
+            public void call(Object... objects) {
+                System.out.println(objects[0]);
+                if (mOnPeerSdp != null) {
+                    mOnPeerSdp.onPeerSdk((String)objects[0]);
+                }
+            }
         });
         mSock = socket;
         socket.connect();

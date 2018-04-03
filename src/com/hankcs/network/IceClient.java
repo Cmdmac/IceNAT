@@ -42,9 +42,9 @@ public class IceClient
 
     private String[] stunServers = new String[]{"111.230.151.66:3478"};
 
-    private String username = "u2";
+    private String username = "u1";
 
-    private String password = "p2";
+    private String password = "p1";
 
     private IceProcessingListener listener;
 
@@ -129,6 +129,7 @@ public class IceClient
             @Override
             public void onPeerSdk(String sdp) {
                 try {
+                    remoteSdp = sdp;
                     SdpUtils.parseSDP(agent, remoteSdp);
                 } catch (Exception e) {
                     e.printStackTrace();
