@@ -3,7 +3,9 @@ package com.hankcs.network;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
+import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.SocketAddress;
 import java.util.List;
@@ -36,13 +38,13 @@ public class IceClient
 
     private String remoteSdp;
 
-    private String[] turnServers = new String[]{"180.160.188.246:3478"};
+    private String[] turnServers = new String[]{"111.230.151.66:3478"};
 
-    private String[] stunServers = new String[]{"180.160.188.246:3478"};
+    private String[] stunServers = new String[]{"111.230.151.66:3478"};
 
-    private String username = "u1";
+    private String username = "u2";
 
-    private String password = "p1";
+    private String password = "p2";
 
     private IceProcessingListener listener;
 
@@ -123,8 +125,6 @@ public class IceClient
     {
 
         SignalChannel signalChannel = new SignalChannel();
-        signalChannel.start("cmdmac.xyz", 8080);
-
         signalChannel.setPeerSdkListener(new SignalChannel.IOnPeerSdpListener() {
             @Override
             public void onPeerSdk(String sdp) {
@@ -135,11 +135,18 @@ public class IceClient
                 }
                 try {
                     startConnect();
+                    startChat(IceClient.this);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
+                } catch (Throwable throwable) {
+                    throwable.printStackTrace();
                 }
             }
         });
+
+        signalChannel.start("cmdmac.xyz", 8080);
+        signalChannel.sendSdp(localSdp);
+
 //
 //        log.info("Paste remote SDP here. Enter an empty line to proceed:");
 //        BufferedReader reader = new BufferedReader(new InputStreamReader(
@@ -182,6 +189,67 @@ public class IceClient
             listener.wait();
         }
 
+    }
+
+    public void startChat(IceClient client) throws Throwable {
+
+        final DatagramSocket socket = client.getDatagramSocket();
+        final SocketAddress remoteAddress = client
+                .getRemotePeerSocketAddress();
+        System.out.println(socket.toString());
+        new Thread(new Runnable()
+        {
+
+            public void run()
+            {
+                while (true)
+                {
+                    try
+                    {
+                        byte[] buf = new byte[1024];
+                        DatagramPacket packet = new DatagramPacket(buf,
+                                buf.length);
+                        socket.receive(packet);
+                        System.out.println(packet.getAddress() + ":" + packet.getPort() + " says: " + new String(packet.getData(), 0, packet.getLength()));
+                    }
+                    catch (IOException e)
+                    {
+                        e.printStackTrace();
+                    }
+                }
+            }
+        }).start();
+
+        new Thread(new Runnable()
+        {
+
+            public void run()
+            {
+                try
+                {
+                    BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+                    String line;
+                    // 从键盘读取
+                    while ((line = reader.readLine()) != null)
+                    {
+                        line = line.trim();
+                        if (line.length() == 0)
+                        {
+                            break;
+                        }
+                        byte[] buf = (line).getBytes();
+                        DatagramPacket packet = new DatagramPacket(buf, buf.length);
+                        packet.setSocketAddress(remoteAddress);
+                        socket.send(packet);
+                    }
+                }
+                catch (Exception e)
+                {
+                    e.printStackTrace();
+                }
+
+            }
+        }).start();
     }
 
     private Agent createAgent(int rtpPort, String streamName) throws Throwable

@@ -15,8 +15,8 @@ public class SignalChannel {
     }
 
     public void sendSdp(String msg) {
-        String format = "{\"sdp\":\"%s\"}";
-        mSock.emit("join", String.format(format, msg));
+//        String format = "{\"sdp\":\"%s\"}";
+        mSock.emit("join", msg);
 
     }
 
@@ -26,7 +26,7 @@ public class SignalChannel {
     }
 
     public void start(String host, int port) throws URISyntaxException {
-        io.socket.client.Socket socket = IO.socket("http://111.230.151.66:8080");
+        final io.socket.client.Socket socket = IO.socket("http://111.230.151.66:8080");
         socket.on(io.socket.client.Socket.EVENT_CONNECT, new Emitter.Listener() {
 
             @Override
@@ -56,6 +56,7 @@ public class SignalChannel {
                 }
             }
         });
+        mSock = socket;
         socket.connect();
     }
 
