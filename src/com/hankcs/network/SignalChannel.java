@@ -1,63 +1,65 @@
 package com.hankcs.network;
 
-import java.io.*;
-import java.net.Socket;
+import io.socket.client.IO;
+import io.socket.client.Socket;
+import io.socket.emitter.Emitter;
+
+import java.net.URISyntaxException;
 
 public class SignalChannel {
-    Socket mSocket;
-    OutputStream mChannelOutput;
-//    InputStream mChannelInput;
+    Socket mSock;
+    IOnPeerSdpListener mOnPeerSdp;
 
-    public void send(String msg) {
-        try {
-            mChannelOutput.write(msg.getBytes());
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+    public void setPeerSdkListener(IOnPeerSdpListener onPeerSdpListener) {
+        mOnPeerSdp = onPeerSdpListener;
+    }
+
+    public void sendSdp(String msg) {
+        String format = "{\"sdp\":\"%s\"}";
+        mSock.emit("join", String.format(format, msg));
+
     }
 
     private void onReceive(String data) {
         System.out.println(data);
+
     }
 
-    public void start(String host, int port) {
-        try {
-            //建立socket服务。指定连接的主机和port
-            mSocket = new Socket(host, port);
-            //获取socket流中的输出流。将数据写入该流，通过网络传送给服务端
-            mChannelOutput = (OutputStream) mSocket.getOutputStream();
-            //获取socket流中的输入流。将服务端反馈的数据获取到，并打印
-            new Thread(new Runnable() {
-                @Override
-                public void run() {
-                    try {
-                        InputStream in = mSocket.getInputStream();
-                        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(in));
-                        String line = "";
-                        StringBuilder stringBuilder = new StringBuilder();
-                        while ((line = bufferedReader.readLine()) != null) {
-                            System.out.println(line);
-                            stringBuilder.append(line);
-                            if (line.equals("bounder--bounder")) {
-                                String buffer = stringBuilder.toString();
-                                onReceive(buffer);
-                                stringBuilder.trimToSize();
-                            }
-                        }
-                        bufferedReader.close();
-                        in.close();
-                    } catch (Exception e) {
-                        e.printStackTrace();
-                    }
+    public void start(String host, int port) throws URISyntaxException {
+        io.socket.client.Socket socket = IO.socket("http://111.230.151.66:8080");
+        socket.on(io.socket.client.Socket.EVENT_CONNECT, new Emitter.Listener() {
 
+            @Override
+            public void call(Object... args) {
+                socket.emit("news", "hi");
+//                socket.disconnect();
+            }
+
+        }).on(io.socket.client.Socket.EVENT_DISCONNECT, new Emitter.Listener() {
+
+            @Override
+            public void call(Object... args) {
+                System.out.println("disconnect");
+            }
+
+        }).on(io.socket.client.Socket.EVENT_MESSAGE, new Emitter.Listener() {
+            @Override
+            public void call(Object... objects) {
+                System.out.println(objects[0]);
+            }
+        }).on("onPeerSdp", new Emitter.Listener() {
+            @Override
+            public void call(Object... objects) {
+                System.out.println(objects[0]);
+                if (mOnPeerSdp != null) {
+                    mOnPeerSdp.onPeerSdk((String)objects[0]);
                 }
-            }).start();
+            }
+        });
+        socket.connect();
+    }
 
-//            System.out.println(new String(buf,0,len));
-//            s.close();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
+    public static interface IOnPeerSdpListener {
+        public void onPeerSdk(String sdp);
     }
 }

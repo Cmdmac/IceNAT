@@ -123,31 +123,45 @@ public class IceClient
     {
 
         SignalChannel signalChannel = new SignalChannel();
-        signalChannel.start("cmdmac.xyz", 6969);
-        Thread.sleep(100);
-        signalChannel.send("hahah-----------");
+        signalChannel.start("cmdmac.xyz", 8080);
 
-        log.info("Paste remote SDP here. Enter an empty line to proceed:");
-        BufferedReader reader = new BufferedReader(new InputStreamReader(
-                System.in));
-
-        StringBuilder buff = new StringBuilder();
-        String line = new String();
-
-        while ((line = reader.readLine()) != null)
-        {
-            line = line.trim();
-            if (line.length() == 0)
-            {
-                break;
+        signalChannel.setPeerSdkListener(new SignalChannel.IOnPeerSdpListener() {
+            @Override
+            public void onPeerSdk(String sdp) {
+                try {
+                    SdpUtils.parseSDP(agent, remoteSdp);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+                try {
+                    startConnect();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
             }
-            buff.append(line);
-            buff.append("\r\n");
-        }
+        });
+//
+//        log.info("Paste remote SDP here. Enter an empty line to proceed:");
+//        BufferedReader reader = new BufferedReader(new InputStreamReader(
+//                System.in));
+//
+//        StringBuilder buff = new StringBuilder();
+//        String line = new String();
+//
+//        while ((line = reader.readLine()) != null)
+//        {
+//            line = line.trim();
+//            if (line.length() == 0)
+//            {
+//                break;
+//            }
+//            buff.append(line);
+//            buff.append("\r\n");
+//        }
+//
+//        remoteSdp = buff.toString();
 
-        remoteSdp = buff.toString();
-
-        SdpUtils.parseSDP(agent, remoteSdp);
+//        SdpUtils.parseSDP(agent, remoteSdp);
     }
 
     public void startConnect() throws InterruptedException

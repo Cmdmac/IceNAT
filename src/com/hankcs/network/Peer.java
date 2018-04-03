@@ -24,6 +24,7 @@ public class Peer
             IceClient client = new IceClient(8888, "text");
             client.init();
             client.exchangeSdpWithPeer();
+            /*
             client.startConnect();
             final DatagramSocket socket = client.getDatagramSocket();
             final SocketAddress remoteAddress = client
@@ -81,7 +82,7 @@ public class Peer
                     }
 
                 }
-            }).start();
+            }).start();*/
         }
         catch (Exception e)
         {
@@ -89,6 +90,7 @@ public class Peer
         } catch (Throwable throwable) {
             throwable.printStackTrace();
         }
+
     }
 
     public void test() {
@@ -96,40 +98,7 @@ public class Peer
     }
 
     public static void main(String[] args) throws URISyntaxException {
-        Socket socket = IO.socket("http://localhost:8080");
-        socket.on(Socket.EVENT_CONNECT, new Emitter.Listener() {
 
-            @Override
-            public void call(Object... args) {
-                socket.emit("news", "hi");
-//                socket.disconnect();
-            }
-
-        }).on(Socket.EVENT_DISCONNECT, new Emitter.Listener() {
-
-            @Override
-            public void call(Object... args) {
-                System.out.println("disconnect");
-            }
-
-        }).on(Socket.EVENT_MESSAGE, new Emitter.Listener() {
-            @Override
-            public void call(Object... objects) {
-                System.out.println(objects[0]);
-            }
-        });
-        socket.connect();
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                try {
-                    Thread.sleep(1000);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-                socket.emit("join", "{\"sdp\":\"aaaaaaa\"}");
-            }
-        }).start();
     }
 
 }
