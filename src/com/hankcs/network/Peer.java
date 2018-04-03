@@ -1,5 +1,9 @@
 package com.hankcs.network;
 
+import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils;
+import io.socket.client.IO;
+import io.socket.client.Socket;
+import io.socket.emitter.Emitter;
 import org.ice4j.StackProperties;
 
 import java.io.BufferedReader;
@@ -8,12 +12,12 @@ import java.io.InputStreamReader;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.SocketAddress;
+import java.net.URISyntaxException;
 
 
 public class Peer
 {
-    public static void main(String[] args) throws Throwable
-    {
+    public void start() {
         try
         {
             System.setProperty(StackProperties.DISABLE_IPv6, "true");
@@ -36,7 +40,7 @@ public class Peer
                         {
                             byte[] buf = new byte[1024];
                             DatagramPacket packet = new DatagramPacket(buf,
-                                                                       buf.length);
+                                    buf.length);
                             socket.receive(packet);
                             System.out.println(packet.getAddress() + ":" + packet.getPort() + " says: " + new String(packet.getData(), 0, packet.getLength()));
                         }
@@ -82,8 +86,50 @@ public class Peer
         catch (Exception e)
         {
             e.printStackTrace();
+        } catch (Throwable throwable) {
+            throwable.printStackTrace();
         }
+    }
 
+    public void test() {
+
+    }
+
+    public static void main(String[] args) throws URISyntaxException {
+        Socket socket = IO.socket("http://localhost:8080");
+        socket.on(Socket.EVENT_CONNECT, new Emitter.Listener() {
+
+            @Override
+            public void call(Object... args) {
+                socket.emit("news", "hi");
+//                socket.disconnect();
+            }
+
+        }).on(Socket.EVENT_DISCONNECT, new Emitter.Listener() {
+
+            @Override
+            public void call(Object... args) {
+                System.out.println("disconnect");
+            }
+
+        }).on(Socket.EVENT_MESSAGE, new Emitter.Listener() {
+            @Override
+            public void call(Object... objects) {
+                System.out.println(objects[0]);
+            }
+        });
+        socket.connect();
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    Thread.sleep(1000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+                socket.emit("join", "{\"sdp\":\"aaaaaaa\"}");
+            }
+        }).start();
     }
 
 }

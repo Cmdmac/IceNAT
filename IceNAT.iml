@@ -12,5 +12,7 @@
     <orderEntry type="module" module-name="ice4j" />
     <orderEntry type="library" name="Maven: org.opentelecoms.sdp:sdp-api:1.0" level="project" />
     <orderEntry type="library" name="Maven: org.opentelecoms.sdp:java-sdp-nist-bridge:1.1" level="project" />
+    <orderEntry type="module" module-name="socket.io-client" />
+    <orderEntry type="library" name="Maven: io.socket:engine.io-client:1.0.0" level="project" />
   </component>
 </module>

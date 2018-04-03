@@ -121,6 +121,12 @@ public class IceClient
      */
     public void exchangeSdpWithPeer() throws Throwable
     {
+
+        SignalChannel signalChannel = new SignalChannel();
+        signalChannel.start("cmdmac.xyz", 6969);
+        Thread.sleep(100);
+        signalChannel.send("hahah-----------");
+
         log.info("Paste remote SDP here. Enter an empty line to proceed:");
         BufferedReader reader = new BufferedReader(new InputStreamReader(
                 System.in));
