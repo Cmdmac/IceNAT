@@ -124,7 +124,7 @@ public class IceClient
     public void exchangeSdpWithPeer() throws Throwable
     {
 
-        SignalChannel signalChannel = new SignalChannel();
+        SignalChannel signalChannel = new SignalChannel(localSdp);
         signalChannel.setPeerSdkListener(new SignalChannel.IOnPeerSdpListener() {
             @Override
             public void onPeerSdk(String sdp) {
@@ -137,6 +137,7 @@ public class IceClient
                 try {
                     startConnect();
                     startChat(IceClient.this);
+                    System.out.println("start chat");
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 } catch (Throwable throwable) {
@@ -146,7 +147,7 @@ public class IceClient
         });
 
         signalChannel.start("cmdmac.xyz", 8080);
-        signalChannel.sendSdp(localSdp);
+//        signalChannel.sendSdp(localSdp);
 
 //
 //        log.info("Paste remote SDP here. Enter an empty line to proceed:");
