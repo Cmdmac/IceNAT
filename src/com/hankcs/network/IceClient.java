@@ -2,9 +2,7 @@ package com.hankcs.network;
 
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.SocketAddress;
@@ -193,12 +191,7 @@ public class IceClient
 
     }
 
-    public void startChat(IceClient client) throws Throwable {
-
-        final DatagramSocket socket = client.getDatagramSocket();
-        final SocketAddress remoteAddress = client
-                .getRemotePeerSocketAddress();
-        System.out.println(socket.toString());
+    public void ayncKeepRecevice(DatagramSocket socket) {
         new Thread(new Runnable()
         {
 
@@ -221,37 +214,49 @@ public class IceClient
                 }
             }
         }).start();
+    }
 
+    public void asyncKeepSend(DatagramSocket socket, SocketAddress remoteAddress) {
         new Thread(new Runnable()
         {
 
             public void run()
             {
-                try
-                {
-                    BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-                    String line;
-                    // 从键盘读取
-                    while ((line = reader.readLine()) != null)
+                while (true) {
+                    try
                     {
-                        line = line.trim();
-                        if (line.length() == 0)
-                        {
-                            break;
-                        }
-                        byte[] buf = (line).getBytes();
+
+                        byte[] buf = ("hello " + String.valueOf(System.currentTimeMillis())).getBytes();
                         DatagramPacket packet = new DatagramPacket(buf, buf.length);
                         packet.setSocketAddress(remoteAddress);
                         socket.send(packet);
+                        System.out.println("keeSend");
+                    }
+                    catch (Exception e)
+                    {
+                        e.printStackTrace();
+                    }
+                    try {
+                        Thread.sleep(1000);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
                     }
                 }
-                catch (Exception e)
-                {
-                    e.printStackTrace();
-                }
-
             }
         }).start();
+    }
+
+    public void startChat(IceClient client) throws Throwable {
+
+        final DatagramSocket socket = client.getDatagramSocket();
+        final SocketAddress remoteAddress = client
+                .getRemotePeerSocketAddress();
+        System.out.println(socket.toString());
+        if (remoteAddress != null) {
+            ayncKeepRecevice(socket);
+            asyncKeepSend(socket, remoteAddress);
+        }
+
     }
 
     private Agent createAgent(int rtpPort, String streamName) throws Throwable
