@@ -11,9 +11,8 @@ import org.ice4j.TransportAddress;
 import org.ice4j.ice.*;
 import org.ice4j.ice.sdp.CandidateAttribute;
 import org.ice4j.ice.sdp.IceSdpUtils;
-import org.opentelecoms.javax.sdp.NistSdpFactory;
 
-import javax.sdp.*;
+import android.javax.sdp.*;
 import java.util.StringTokenizer;
 import java.util.Vector;
 
@@ -33,7 +32,7 @@ public class SdpUtils
      * Creates a session description containing the streams from the specified
      * <tt>agent</tt> using dummy codecs. This method is unlikely to be of use
      * to integrating applications as they would likely just want to feed a
-     * {@link javax.sdp.MediaDescription} and have it populated with all the necessary
+     * {@link android.javax.sdp.MediaDescription} and have it populated with all the necessary
      * attributes.
      *
      * @param agent the {@link org.ice4j.ice.Agent} we'd like to generate.
@@ -45,7 +44,7 @@ public class SdpUtils
      */
     public static String createSDPDescription(Agent agent) throws Throwable
     {
-        SdpFactory factory = new NistSdpFactory();
+        SdpFactory factory = SdpFactory.getInstance();
         SessionDescription sdess = factory.createSessionDescription();
 
         IceSdpUtils.initSessionDescription(sdess, agent);
@@ -67,7 +66,7 @@ public class SdpUtils
     public static void parseSDP(Agent localAgent, String sdp)
         throws Exception
     {
-        SdpFactory factory = new NistSdpFactory();
+        SdpFactory factory = SdpFactory.getInstance();
         SessionDescription sdess = factory.createSessionDescription(sdp);
 
         for(IceMediaStream stream : localAgent.getStreams())

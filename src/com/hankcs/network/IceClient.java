@@ -219,7 +219,6 @@ public class IceClient
     public void asyncKeepSend(DatagramSocket socket, SocketAddress remoteAddress) {
         new Thread(new Runnable()
         {
-
             public void run()
             {
                 while (true) {
@@ -230,14 +229,14 @@ public class IceClient
                         DatagramPacket packet = new DatagramPacket(buf, buf.length);
                         packet.setSocketAddress(remoteAddress);
                         socket.send(packet);
-                        System.out.println("keeSend");
+//                        System.out.println("keeSend");
                     }
                     catch (Exception e)
                     {
                         e.printStackTrace();
                     }
                     try {
-                        Thread.sleep(1000);
+                        Thread.sleep(10000);
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
